@@ -14,7 +14,7 @@ feature {NONE} -- Initialization
 	make
 			-- Run application.
 		local
-			hello_thread : CONNECT_THREAD
+			hello_thread : TRUCO_SERVER_THREAD
 		do
 			--| Add your code here
 			print ("Hello Eiffel World!%N")

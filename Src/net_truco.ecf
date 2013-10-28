@@ -12,12 +12,15 @@
 			</option>
 		</precompile>
 		<library name="thread" location="$ISE_LIBRARY\library\thread\thread.ecf"/>
-		<cluster name="net_truco" location=".\" recursive="true">
+		<cluster name="net_truco" location=".\">
 			<file_rule>
 				<exclude>/EIFGENs$</exclude>
 				<exclude>/CVS$</exclude>
 				<exclude>/.svn$</exclude>
 			</file_rule>
+			<cluster name="truco_chat" location=".\truco_chat\"/>
+			<cluster name="truco_server" location=".\truco_server\"/>
+			<cluster name="truco_client" location=".\truco_client\"/>
 		</cluster>
 	</target>
 </system>

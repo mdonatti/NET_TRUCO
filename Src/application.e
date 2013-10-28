@@ -6,9 +6,6 @@ note
 class
 	APPLICATION
 
-inherit
-	ARGUMENTS
-
 create
 	make
 

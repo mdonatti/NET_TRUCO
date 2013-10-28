@@ -11,6 +11,7 @@
 			<option msil_application_optimize="true">
 			</option>
 		</precompile>
+		<library name="thread" location="$ISE_LIBRARY\library\thread\thread.ecf"/>
 		<cluster name="net_truco" location=".\" recursive="true">
 			<file_rule>
 				<exclude>/EIFGENs$</exclude>

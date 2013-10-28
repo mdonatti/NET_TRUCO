@@ -13,9 +13,13 @@ feature {NONE} -- Initialization
 
 	make
 			-- Run application.
+		local
+			hello_thread : CONNECT_THREAD
 		do
 			--| Add your code here
 			print ("Hello Eiffel World!%N")
+			create hello_thread
+			hello_thread.execute
 		end
 
 end
